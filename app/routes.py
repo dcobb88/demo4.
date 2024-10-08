@@ -9,3 +9,23 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/pets')
+def pets():
+    return render_template('pets.html')
+
+@app.route('/products')
+def products():
+    return render_template('products.html')
+
+@app.route('/grooming')
+def grooming():
+    return render_template('grooming.html')
+
+@app.route('/help')
+def help():
+    return render_template('help.html')
+
+
+
+
+
